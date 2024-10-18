@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    width: 400px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    background-color: white;
+    color: #ff0000;
+    border: none;
+    cursor: pointer;
+}
+
+header .user-options a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Barra Lateral */
+nav {
+    width: 200px;
+    background-color: #fff;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    padding-top: 20px;
+    border-right: 1px solid #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+
+/* Conteúdo Principal */
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    width: 320px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+}
+
+.video h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
